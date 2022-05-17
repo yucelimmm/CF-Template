@@ -40,7 +40,7 @@ Resources:
           cd /var/www/html
           wget https://github.com/yucelimmm/CF-Template/archive/main.zip
           unzip main.zip
-          cp -r CE-Template-main/* /var/www/html/
+          cp -r CF-Template-main/* /var/www/html/
           rm -rf techmax-main main.zip
           systemctl enable httpd 
           systemctl start httpd
